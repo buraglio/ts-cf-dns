@@ -17,7 +17,7 @@ has a valid IPv6 address, and based on [source address selection rules](https://
 ## Requirements
 
 Python 3.x 
-A [https://www.tailscale.com](TailScale) account
+A [TailScale](https://www.tailscale.com) account
 A Cloudflare account (if using Cloudflare)
 Some amount of free time and desire to do wacky stuff with your DNS
 
