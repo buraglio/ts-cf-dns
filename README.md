@@ -4,8 +4,9 @@ This Python script retrieves IPv6 addresses from the Tailscale API and updates C
 
 It should be noted that putting ULA (or any private addressing) into public DNS is considered bad form, the
 downsides of which are well traveled, well studied, and generally it's just stupid. that said, it's pretty useful in some cases, especially for internal split-dns. 
-This only supports IPv6 because there is no reason to support legacy IPv4 when everything on the tailnet  
-has a valid IPv6 address, and based on [source address selection rules](https://datatracker.ietf.org/doc/html/rfc6724) when dual-stacked the IPv6 ULA will never be used without [rfc6724-update](https://datatracker.ietf.org/doc/draft-ietf-6man-rfc6724-update/).
+This only supports IPv6 because there is no reason to support legacy IPv4 when everything on the tailnet has a valid IPv6 address, and based on 
+[source address selection rules](https://datatracker.ietf.org/doc/html/rfc6724) when dual-stacked the IPv6 ULA will never be used 
+without [rfc6724-update](https://datatracker.ietf.org/doc/draft-ietf-6man-rfc6724-update/).
 
 ## Features
 
