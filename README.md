@@ -28,15 +28,15 @@ requests module (install with pip install requests)
 
 Set the following variables in the script:
 
-`TAILSCALE_API_KEY: Your Tailscale API key.`
+`TAILSCALE_API_KEY:` Your Tailscale API key. - Required
 
-`TAILSCALE_TAILNET: Your Tailscale tailnet name.`
+`TAILSCALE_TAILNET:` Your Tailscale tailnet name. - Required
 
-`CLOUDFLARE_API_KEY: Your Cloudflare API key.`
+`CLOUDFLARE_API_KEY:` Your Cloudflare API key. - Required if using cloudflare
 
-`CLOUDFLARE_ZONE_ID: Your Cloudflare zone ID.`
+`CLOUDFLARE_ZONE_ID:` Your Cloudflare zone ID. - Required if using cloudflare
 
-`DNS_DOMAIN: Your domain name.`
+`DNS_DOMAIN:` Your domain name. - Required
 
 ## Usage
 
