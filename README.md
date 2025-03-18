@@ -69,4 +69,4 @@ Export data in Pi-hole format:
 
 ## License
 
-This script is provided as-is with no warranty, don't do stupid stuff with it. Modify and use at your own risk.
+This script is provided as-is with no warranty, don't do stupid stuff with it. Or do, it's really your call and at your own risk.
