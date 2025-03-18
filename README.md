@@ -17,12 +17,11 @@ without [rfc6724-update](https://datatracker.ietf.org/doc/draft-ietf-6man-rfc672
 
 ## Requirements
 
-Python 3.x 
-A [TailScale](https://www.tailscale.com) account
-A Cloudflare account (if using Cloudflare)
-Some amount of free time and desire to do wacky stuff with your DNS
-
-requests module (install with pip install requests)
+* Python 3.x 
+* A [TailScale](https://www.tailscale.com) account
+* A Cloudflare account (if using Cloudflare)
+* Some amount of free time and desire to do wacky stuff with your DNS
+* requests module (install with pip install requests)
 `pip3 install requests`
 
 ## Configuration
